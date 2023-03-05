@@ -61,7 +61,7 @@ console.log("正在监听%d端口...",port);
 ```
 
 - 此段代码会将请求的api代理到我们本地的url路径下，我们只需要node index.js 即可开始调试
-![Alt text](./images/1.png)
+![Alt text](images/1.png)
 
 - 然后在我们的index.html中加入以下代码
 
@@ -93,7 +93,7 @@ $.get('/api/weather',tianqiData,function(data){
 ```
 
 - 浏览器中输入localhost:2023,结果如下
-![Alt text](./images/2.png)
+![Alt text](images/2.png)
 
 
 - 在我另一个项目中，信息管理控制台项目中，曾经做过调用聚合数据的api会出现跨域的问题，现在可以解决这个问题
